@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+:root {
+  box-sizing: border-box;
+  font-size: calc(1vw+0.5em);
+  color: black; }
+
+body {
+  background-color: rgba(130, 130, 130, 0.5); }
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Serif', serif; }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(130, 130, 130, 0.5); }
+
+.icon {
+  transition: 0.3s;
+  color: #e2e209;
+  font-size: 0.8em;
+  text-transform: capitalize;
+  cursor: pointer; }
+  .icon:active {
+    border: 0.1em solid rgba(130, 130, 130, 0.5);
+    border-radius: 0.2em; }
+  .icon:hover {
+    border: 0.1em solid rgba(130, 130, 130, 0.5);
+    border-radius: 0.2em;
+    box-shadow: 0.2em 0.2em 0.2em white; }
+  .icon:visited {
+    border: 0.1em solid rgba(130, 130, 130, 0.5);
+    border-radius: 0.2em; }
+
+.main {
+  width: 100%;
+  height: auto;
+  margin: 12em auto 0; }
+
+.basket__wrapper {
+  width: 90%;
+  height: auto;
+  margin: 0.3em auto;
+  border: 1px solid black; }
+
+.backet__card {
+  width: 100%;
+  height: auto;
+  margin: 0.3em auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.backet__productInfo {
+  flex: 0  0 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.basket__img-wrapper {
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin: 1em auto; }
+
+.basket__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+.basket__Text {
+  text-align: center; }
+  .basket__Text > h5 {
+    padding: 0.3em auto;
+    font-size: 1rem;
+    color: #e2e209; }
+  .basket__Text > p {
+    padding: 0.3em auto;
+    font-size: 0.8rem;
+    color: black; }
+
+/*# sourceMappingURL=basket.css.map */
